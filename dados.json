@@ -1,0 +1,52 @@
+{
+    "dados": {
+        "time": {
+            "jogadores": {
+                "nome": "Ramos",
+                "idade": "18"
+            },
+            "tecnico": {
+                "nome": "Hylson"
+            },
+            "nacionalidade": "brasileiro"
+        },
+        "penalidade": {
+            "numero_de_partidas": "duas",
+            "nivel_penalidade": "medio"
+        },
+        "campeonato":{
+            "nome": "superliga",
+            "nivel": "nacional",
+            "premio":{
+                "campeoes": "doze milhoes",
+                "vice_campeoes": "cinco milhoes",
+            },
+        },
+        "partida":{
+            "narrador":{
+                "nome": "sérgio",
+                "lingua": "portugues",
+            },
+            "round": {
+                "tempo":"2 mins",
+                "numero":"três",
+            },
+            "times": {
+                "time": {
+                    "jogadores": {
+                        "nome": "Ramos",
+                        "idade": "18"
+                    },
+                    "tecnico": {
+                        "nome": "Hylson"
+                    },
+                    "nacionalidade": "brasileiro",
+                "pausa":{
+                    "motivo": "problemas tecnicos",
+                    "tempo" : "5 minutos"
+                },
+            "data" : "20/5/2019"
+            }
+        }   
+    }
+}
