@@ -10,14 +10,6 @@ def main ():
 
     return foi
 
-@app.route ('/listar_time')
-def listar_time ():
-
-    time = list(map(model_to_dict, Time.select()))
-    response = jsonify({"time": time})
-    response.headers.add('Access-Control-Allow-Origin', '*')
-    return response
-
 @app.route ('/listar_penalidade')
 def listar_penalidade ():
 
